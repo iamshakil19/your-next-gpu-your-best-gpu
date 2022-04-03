@@ -1,11 +1,33 @@
 .navbar{
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 20px;
     font-weight: 700;
+    /* transition-duration: 1000ms; */
+    transition: .7s ease-in-out;
+    margin-left: 15px;
 }
 .navbar a{
     text-decoration: none;
     margin-right: 25px;
+}
+.menu-icon{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+
+
+@media screen and (min-width: 688px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        position: static;
+    }
+}
+@media screen and (min-width: 688px) {
+    .menu-icon{
+        display: none;
+    }
 }
