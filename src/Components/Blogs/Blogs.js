@@ -1,7 +1,8 @@
 import React from 'react';
+import './Blogs.css'
 const Blogs = () => {
     return (
-        <section>
+        <section className='blog-container'>
             <div className='mb-10'>
                 <h2 className='font-bold text-2xl text-center'>What Is Context Api</h2>
                 <p className='mx- mt-5 text-center text-lg'>আগে যখন প্যারেন্ট কম্পোনেন্ট থেকে কোন ডাটা নিচের কোন কম্পোনেন্ট কে পাঠানো লাগতো
