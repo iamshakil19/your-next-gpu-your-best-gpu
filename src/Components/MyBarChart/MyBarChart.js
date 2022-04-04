@@ -2,6 +2,7 @@ import React from 'react';
 import { Bar, BarChart, Legend, Tooltip, XAxis } from 'recharts';
 import useChartData from '../Hooks/useChartData';
 import './MyBarChart.css'
+
 const MyBarChart = () => {
     const [chartData, setChartData] = useChartData()
     return (
