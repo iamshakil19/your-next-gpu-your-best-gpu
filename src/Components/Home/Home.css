@@ -17,6 +17,10 @@
     transition: .4s ease-in-out;
 }
 
+.top-reviews-container{
+    margin-bottom: 50px;
+}
+
 .text-center img {
     margin: 0 auto;
 }
@@ -63,5 +67,12 @@
         padding-left: 100px;
         padding-right: 100px;
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .top-reviews-container{
+        display: flex;
+        justify-content: center;
     }
 }

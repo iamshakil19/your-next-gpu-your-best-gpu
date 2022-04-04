@@ -2,9 +2,14 @@ import React from 'react';
 import './Home.css'
 import image from '../../Resources/gpu.jpg'
 import { Link } from 'react-router-dom';
+import useReviews from '../Hooks/useReviews';
+import Review from '../HomeReview/HomeReview';
 
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
+    const topReviews = reviews.slice(0, 3)
+    console.log(topReviews);
     return (
         <div>
             <section className='text-center product-container'>
@@ -22,14 +27,19 @@ const Home = () => {
 
             <section className='mt-8 mb-10 reviews-container'>
                 <div>
-                    <h2 className='text-center text-3xl font-semibold '>Customer Reviews ( 3 )</h2>
+                    <h2 className='text-center text-3xl font-semibold '>Customer Reviews (3)</h2>
                 </div>
 
-                <div>
-
+                <div className='text-center top-reviews-container'>
+                    {
+                        topReviews.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
                 </div>
 
-                <div className='all-reviews-btn-container'>
+                <div className='all-reviews-btn-container mt-5'>
                     <Link className='all-reviews-btn' to='/reviews'>See All Reviews</Link>
                 </div>
             </section>
