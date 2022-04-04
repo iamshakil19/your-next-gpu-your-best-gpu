@@ -1,0 +1,22 @@
+.all-review-container{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.username{
+    margin: 20px 0px 10px 0px;
+}
+.user-image{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.rating-color{
+    color: rgb(252, 104, 49);
+}

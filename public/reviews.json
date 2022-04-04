@@ -54,5 +54,12 @@
         "name": "Enayet",
         "userReview": "This is very good product",
         "rating": 5
+    },
+    {
+        "id": 8,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name": "Shamim Ahmed",
+        "userReview": "This is very good product",
+        "rating": 4.9
     }
 ]

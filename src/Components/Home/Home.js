@@ -9,7 +9,6 @@ import Review from '../HomeReview/HomeReview';
 const Home = () => {
     const [reviews, setReviews] = useReviews()
     const topReviews = reviews.slice(0, 3)
-    console.log(topReviews);
     return (
         <div>
             <section className='text-center product-container'>
