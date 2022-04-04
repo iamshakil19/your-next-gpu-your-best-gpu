@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 import useChartData from '../Hooks/useChartData';
 import './MyAreaChart.css'
 
@@ -14,6 +14,7 @@ const MyAreaChart = () => {
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
                 <XAxis dataKey={"month"}></XAxis>
                 <YAxis></YAxis>
+                <Legend></Legend>
             </AreaChart>
         </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import useChartData from '../Hooks/useChartData';
 import './MyLineChart.css'
 
@@ -14,6 +14,7 @@ const MyLineChart = () => {
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
                 <Tooltip></Tooltip>
                 <YAxis></YAxis>
+                <Legend></Legend>
             </LineChart>
         </section>
     );
