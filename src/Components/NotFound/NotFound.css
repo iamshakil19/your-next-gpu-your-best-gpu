@@ -1,0 +1,8 @@
+.notFound-container{
+    background-image: url(../../Resources/not-found.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* object-fit: fill; */
+    background-size: 500px;
+    height: 80vh;
+}
