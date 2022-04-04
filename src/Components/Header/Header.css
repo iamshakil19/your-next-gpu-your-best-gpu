@@ -18,15 +18,15 @@
 
 
 
-@media screen and (min-width: 688px) {
+@media screen and (min-width: 992px) {
     .navbar{
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin: 30px ;
         position: static;
     }
 }
-@media screen and (min-width: 688px) {
+@media screen and (min-width: 992px) {
     .menu-icon{
         display: none;
     }
